@@ -1,0 +1,25 @@
+{
+    "name": "mmetayer/fake-bundle",
+    "description": "Fake Akeneo PIM extension",
+    "type": "akeneo-extension",
+
+    "license": "OSL 3.0",
+    "authors": [
+        {
+            "name": "Mathias Métayer",
+            "email": "mathias.metayer@akeneo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pim\\Bundle\\FakeBundle\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/http-kernel": "^3.3"
+    },
+    "suggest": {
+        "mmetayer/extension-installer": "Allows to easily install this extension"
+    }
+}

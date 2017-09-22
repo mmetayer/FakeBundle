@@ -1,0 +1,8 @@
+{
+    "bundles": {
+        "Pim\\Bundle\\FakeBundle\\PimFakeBundle": ["all"]
+    },
+    "copy-files": {
+        "src/Resources/config/": "%CONFIG_DIR%"
+    }
+}

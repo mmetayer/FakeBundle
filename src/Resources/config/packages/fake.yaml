@@ -1,0 +1,6 @@
+parameters:
+    pim_fake.controller.fake.class: Pim\Bundle\FakeBundle\Controller\FakeController
+
+services:
+    pim_fake.controller.fake:
+        class: "%pim_fake.controller.fake.class%"

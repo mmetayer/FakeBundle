@@ -1,0 +1,4 @@
+pim_fake_fake_index:
+    path:  /fake/
+    defaults: { _controller: pim_fake.controller.fake:indexAction }
+    methods: [GET]
